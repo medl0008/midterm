@@ -1,7 +1,17 @@
+html {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: auto;
+    background-color: #aad4cf;
+}
 header {
-    background-image: src="../lone-starfish-wide.jpg";
+    background-image: url(../images/lone-starfish-wide.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    font-size: 50px;
+    padding-top: 170px;
+    padding-bottom: 100px;
     color: white;
 }
