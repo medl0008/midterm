@@ -29,7 +29,7 @@ nav {
 nav a {
     float: center;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 75px;
     font-size: 25px;
     text-transform: uppercase;
 }
@@ -48,4 +48,28 @@ h1 {
 #image2 {
     float: left;
     padding: 10px;
+}
+h2 {
+    padding: 10px;
+}
+form {
+    border-style: solid;
+    padding-left: 10px;
+}
+#fullname, #email {
+   width: 875px;
+}
+#message {
+    width: 875px;
+    height: 125px;
+}
+#send {
+    padding: 20px;
+}
+#button {
+    padding: 8px;
+}
+footer {
+    text-align: right;
+    padding: 30px;
 }
