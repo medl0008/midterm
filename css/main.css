@@ -9,7 +9,7 @@ html {
     padding-right: 100px;
     max-width: 900px;
     }
-    /* html is styled to set parameters for formatting of entire page*/
+    /* html is styled to set parameters for formatting of entire page, set max width to prevent movement of content based on screen size*/
 header {
     background-image: url(../images/lone-starfish-wide.jpg);
     background-position: center;
