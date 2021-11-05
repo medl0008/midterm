@@ -8,8 +8,8 @@ html {
     padding-left: 100px;
     padding-right: 100px;
     max-width: 900px;
-      
     }
+    /* html is styled to set parameters for formatting of entire page*/
 header {
     background-image: url(../images/lone-starfish-wide.jpg);
     background-position: center;
@@ -21,10 +21,12 @@ header {
     padding-bottom: 100px;
     color: white;
 }
+/*header has background image stylings, and text stylings*/
 body {
     background-color: white;
     padding: 5px;
 }
+/*styling of body for consistent look*/
 nav {
     background-color: white;
     position: relative;
@@ -32,6 +34,7 @@ nav {
     padding-bottom: 20px;
     padding-top: 2px;
 }
+/*nav size and colour styling*/
 nav a {
     float: center;
     padding-left: 100px;
@@ -39,22 +42,27 @@ nav a {
     font-size: 25px;
     text-transform: uppercase;
 }
+/*text styling for nav*/
 .borderstyle {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
+/*styling for lines between nav options*/
 h1 {
     font-size: 35px;
     text-align: left;
     padding-left: 10px;
 }
+/*styled header*/
 .content {
     text-align: top right;
 }
+/*styling text class*/
 #image2 {
     float: left;
     padding: 10px;
 }
+/*styling image id*/
 h2 {
     padding: 10px;
 }
@@ -62,6 +70,7 @@ form {
     border-style: solid;
     padding-left: 10px;
 }
+/*adding border and sizing to form*/
 #fullname, #email {
    width: 835px;
 }
@@ -69,13 +78,17 @@ form {
     width: 835px;
     height: 125px;
 }
+/*styling ids for form boxes*/
 #send {
     padding: 20px;
 }
+/*padding to space button from other content*/
 #button {
     padding: 8px;
 }
+/*padding inside button to increase its size*/
 footer {
     text-align: right;
     padding: 30px;
 }
+/*footer styling*/
