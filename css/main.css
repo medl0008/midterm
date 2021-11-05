@@ -17,6 +17,7 @@ header {
 }
 body {
     background-color: white;
+    padding: 5px;
 }
 nav {
     background-color: white;
@@ -39,4 +40,12 @@ nav a {
 h1 {
     font-size: 35px;
     text-align: left;
+    padding-left: 10px;
+}
+.content {
+    text-align: top right;
+}
+#image2 {
+    float: left;
+    padding: 10px;
 }
