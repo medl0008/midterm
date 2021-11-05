@@ -1,9 +1,15 @@
 html {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: auto;
     background-color: #aad4cf;
-}
+    display: block;
+    position: absolute;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 900px;
+      
+    }
 header {
     background-image: url(../images/lone-starfish-wide.jpg);
     background-position: center;
@@ -18,7 +24,6 @@ header {
 body {
     background-color: white;
     padding: 5px;
-    position: relative;
 }
 nav {
     background-color: white;
@@ -58,10 +63,10 @@ form {
     padding-left: 10px;
 }
 #fullname, #email {
-   width: 875px;
+   width: 835px;
 }
 #message {
-    width: 875px;
+    width: 835px;
     height: 125px;
 }
 #send {
