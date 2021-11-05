@@ -18,6 +18,7 @@ header {
 body {
     background-color: white;
     padding: 5px;
+    position: relative;
 }
 nav {
     background-color: white;
